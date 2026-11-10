@@ -17,7 +17,6 @@
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-border: var(--border);
-  --color-border-foreground: var(--border);
   --color-success: var(--success);
   --color-danger: var(--danger);
 }
@@ -76,7 +75,6 @@
   --danger: oklch(0.6 0.75 25);
 }
 
-/* ✅ Create the missing border-border utility */
 @utility border-border {
   border-color: var(--border);
 }
